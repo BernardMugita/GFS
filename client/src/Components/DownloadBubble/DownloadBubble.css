@@ -1,0 +1,45 @@
+.DownloadBubble {
+    border-radius: 5px;
+    display: flex;
+    width: 25rem;
+    border: 1px solid #ffffff;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    height: 4.5rem;
+}
+
+.filetype {
+    flex: 1;
+    background-color: rgb(0, 47, 255);
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.title {
+    flex: 4;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.title p{
+    margin-top: 0.5rem;
+    color: #000000;
+}
+
+.title a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.click {
+    flex: 1;
+    text-align: right;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #1ec500;
+    border-radius: 0px 3px 3px 0px;
+}

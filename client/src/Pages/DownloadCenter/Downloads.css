@@ -1,0 +1,19 @@
+.Downloads{
+    padding: 10px;
+    height: 80vh;
+    width: 100%;
+    background-color: #bcff8f;
+    box-sizing: border-box;
+}
+.Downloads .header{
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.Downloads .downloads{
+    background-color: #adadad;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}

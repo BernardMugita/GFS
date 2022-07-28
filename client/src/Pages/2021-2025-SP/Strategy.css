@@ -1,0 +1,83 @@
+.Strategy{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    background-color: #bcff8f;
+    box-sizing: border-box;
+}
+.Strategy .heading{
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #000000;
+}
+.Strategy h1{
+    text-align: center;
+}
+.strategy-card .card-head h2{
+    color: #fff;
+}
+.strategy-card{
+    margin-top: 1rem;
+    height: 100%;
+}
+.card-head{
+    background-color: #1ec500;
+    padding: 1rem;
+    border: 1px solid #000000;
+}
+.card-body{
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #000000;
+}
+.card-body li{
+    list-style: square;
+    margin-left: 1rem;
+}
+.card-body li, p{
+    font-size: 1.2rem;
+    color: #000000;
+}
+.strategy-card .left{
+    display: none;
+}
+@media only screen and (min-width:675px) {
+    .Strategy{
+        display: flex;
+        flex-direction: column;
+    }
+    .Strategy .top{
+        display: flex;
+    }
+    .Strategy .bottom{
+        display: flex;
+    }
+    .Strategy .strategy-card{
+        flex: 1;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .strategy-card .card-head{
+        background-color: #0c4d00;
+    }
+    .strategy-card .card-body{
+        display: flex;
+        padding: 0;
+    }
+    .strategy-card .card-body .right{
+        flex: 9;
+        padding: 2rem;
+    }
+    .strategy-card .card-body .left{
+        display: block;
+        flex: 1;
+        background-color: #1ec500;
+        border-right: 1px solid #000000;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .Strategy .strategy-card{
+        height: 100%;
+    }
+}

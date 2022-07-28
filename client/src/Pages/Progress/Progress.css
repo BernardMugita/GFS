@@ -1,0 +1,147 @@
+.Progress{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    background-color: #bcff8f;
+    box-sizing: border-box;
+}
+.Progress .header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../Resources/vege.jpeg);
+    height: auto;
+    width: 100%;
+    padding: 5rem;
+    background-position: center;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Progress .header h1{
+    color: #fff;
+    margin-top: 6rem;
+    flex: 1;
+}
+.Progress .header p{
+    color: #fff;
+}
+.Progress .header .newsletter{
+    display: flex;
+    padding: 2rem;
+    background-color: #1ec500;
+    flex: 1;
+    border-radius: 0.2rem;
+}
+.Progress .header .newsletter .left{
+    flex: 1;
+}
+.Progress .header .newsletter .left img{
+    margin: 1rem;
+}
+.Progress .header .newsletter .right{
+    flex: 1;
+}
+.Progress .header .newsletter .right h1{
+    margin-top: -15px;
+}
+.Progress .header .newsletter .right .form{
+    display: flex;
+    flex-direction: column;
+}
+.Progress .header .newsletter .right .form input, button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #acacac;
+    border-radius: 0.2rem;
+}
+.Progress .header .newsletter .right .form button{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+
+.Progress .progress-body{
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+}
+
+.Progress .progress-body .title-top h1{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.Progress .progress-body .title h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.Progress .progress-body .over-body{
+    padding: 2rem;
+    background-color: #1ec500;
+}
+
+.Progress .progress-body .over-body p{
+    padding: 2rem;
+    color: #fff;
+}
+
+
+.Progress .progress-body .body{
+    padding: 2rem;
+    display: flex;
+}
+.Progress .progress-body .title-top{
+    text-align: center;
+}
+
+.Progress .progress-body .title-top #prog{
+    font-size: 8rem;
+    color: #1ec500;
+    margin: 2rem;
+    margin-top: 11rem;
+}
+
+.Progress .progress-body .title-top .progress-icon{
+    background: url(../../Resources//IMG_20220424_090824_287.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+.Progress .progress-body .body .right{
+    flex: 1;
+}
+
+.Progress .progress-body .body .left{
+    flex: 1;
+}
+.Progress .progress-body .body .left p{
+    line-height: 3rem;
+    margin: 1rem;
+}
+
+.Progress .progress-body .body .right img{ 
+    width: 40rem;
+    height: 20rem;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Progress .progress-body .body .right p{
+    line-height: 3rem;
+    margin: 1rem;
+    padding-left: 3rem
+}
+
+.Progress .progress-body .body .right h1{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.Progress .progress-body .body .left img{ 
+    width: 40rem;
+    height: 20rem;
+    border-radius: 20px;
+    object-fit: cover;
+}
+

@@ -1,0 +1,77 @@
+.navbar{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+
+.navbar .menu{
+    display: block;
+}
+.navbar .menu .drop{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1ec500;
+    color: #fff;
+    border: 1px solid #acacac;
+    left: 0;
+    position: absolute;
+}
+.navbar .menu .drop a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.7rem;
+}
+.navbar .menu .drop .socials{
+    display: flex;
+    margin-top: 0.2rem;
+}
+.navbar .menu .drop .socials #soc{
+    margin-right: 5px;
+}
+.navbar .menu .drop .socials #soc:hover{
+    font-weight: 700;
+}
+.navbar .links{
+    display: none;
+}
+.navbar .menu #reorder{
+    color: #1ec500;
+    border: 1px solid #1ec500;
+}
+@media only screen and (min-width:675px){
+    .navbar{
+        padding: 1.5rem;
+        position: static;
+    }
+    .navbar .links{
+        display: flex;
+    }
+    .navbar .menu{
+        display: none;
+    }
+    .navbar .links a{
+        margin: 1rem;
+        text-decoration: none;
+        color: #1ec500;
+        font-weight: 700;
+        font-size: 1rem;
+        border-left: 2px solid #1ec500;
+        padding-left: 2rem;
+    }
+    .navbar .links a:hover{
+        text-decoration: underline;
+    }
+}

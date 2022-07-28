@@ -1,0 +1,409 @@
+.About{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    background-color: #bcff8f;
+    box-sizing: border-box;
+}
+.about-container{
+    background-color: #fff;
+    padding: 1rem;
+}
+.About h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.about-container .about-intro .body img{
+    width: 100%;
+}
+.about-container .vision .body{ 
+    padding: 1rem;
+}
+.about-container .mission .body{
+    padding: 1rem;
+}  
+.about-container .values .body{
+    padding: 1rem;
+}
+
+.about-container .vision .body p{ 
+    font-size: 1.1rem;
+}
+.about-container .mission .body li{
+    font-size: 1.1rem;
+}  
+.about-container .values .body li{
+    font-size: 1.1rem;
+}
+
+.about-intro .heading h1{
+    margin-bottom: 0.5rem;
+}
+.about-intro .ab-logo{
+    display: none;
+}
+.About .about-container .vision 
+.mission 
+.values p{
+    font-size: 0.5rem;
+    text-align: left;
+}
+.mission li{
+    font-size: 1rem;
+    list-style: square;
+}
+.values li{
+    font-size: 1rem;
+    list-style: square;
+}
+.About .landingpage{
+    width: 100%;
+    height: auto;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../Resources/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+.About .landingpage h1{
+    margin-top: 6rem;
+}
+.About .landingpage .top p{
+    margin-bottom: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+.About .landingpage .locationtag p{
+    color: #fff;
+}
+.board-of-directors{
+    background-color: #fff;
+    padding: 5px;
+    color: #1ec500;
+}
+.board-of-directors h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.dir{
+    display: flex;
+    padding: 10px;
+}
+.dir .details{
+    padding: 1rem;
+}
+.dir .details h1{
+    font-size: 1.3rem;
+    text-align: left;
+    color: #1ec500;
+}
+.dir .details h3{
+    font-size: 1rem;
+    text-align: left;
+    color: #000000;
+}
+.dir .image img{
+    width: 6rem;
+    height: 8rem;
+    margin-right: 20px;
+    border: 0.2rem solid #1ec500;
+}
+.About .map{
+    padding: 3rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.About .map .tag{
+    margin-top: 1rem;
+    border: 1px solid #000000;
+    width: 100%;
+    height: 14rem;
+}
+.About .map h1{
+    font-size: 1rem;
+    color: #1ec500;
+}
+.map .localedetails h1{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.map .localedetails{
+    text-align: left;
+}
+.map .localedetails .contact-container .left, .address-container .left{
+    display: none;
+}
+@media only screen and (min-width:675px) {
+    .About .landingpage{
+        display: flex;
+    }
+
+    .About .landingpage h1{
+        margin-top: 8rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .About .landingpage .top{
+        border-right: 2px solid #fff;
+        padding: 2rem;
+        flex: 3;
+    }
+    .About .landingpage .top p{
+        margin-bottom: 3rem;
+        margin-top: -6rem;
+        padding-bottom: 2rem;
+        border: none;
+    }
+    .About .landingpage .locationtag{
+        flex: 3;
+        padding: 2rem;
+    }
+    .About .landingpage .locationtag p{
+        font-size: 1.5rem;
+    }
+    .About .landingpage .locationtag #locale{
+        font-size: 3rem;
+        margin-top: 6rem;
+        margin-bottom: 0.5rem;
+    }
+    .board-of-directors{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .board-of-directors h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .board-of-directors .top{
+        display: flex;
+        margin-left: 12rem;
+        margin-bottom: 2rem;
+    }
+    .board-of-directors .bottom{
+        display: flex;
+        margin-left: 12rem;
+        margin-bottom: 2rem;
+    }
+    .dir{
+        display: flex;
+        padding: 10px;
+    }
+    #dir1{
+        margin-right: -8rem;
+    }
+    #dir3{
+        margin-left: 4.6rem;
+    }
+    .dir .details{
+        padding: 2rem;
+    }
+    .dir .details h1{
+        font-size: 1.3rem;
+        text-align: left;
+        color: #1ec500;
+    }
+    .dir .details h3{
+        font-size: 1rem;
+        text-align: left;
+        color: #000000;
+    }
+    .dir .image img{
+        width: 12rem;
+        height: 16rem;
+        margin-right: 20px;
+        border: 0.2rem solid #1ec500;
+    }
+    .About .map h1{
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+    .About .map .tag{
+        height: 25rem;
+    }
+    .map .localedetails{
+        display: flex;
+        padding: 2rem;
+    }
+    .map .localedetails .contacts{
+        flex: 1;
+    }
+    .map .localedetails .address{
+        flex: 1;
+    }
+    .map .localedetails .contacts, .address{
+        border-bottom: 2px solid #1ec500;
+        border-width: 3rem;
+    }
+    .map .localedetails .contact-container, .address-container{
+        display: flex;
+    }
+    .map .localedetails .contact-container .left, .address-container .left{
+        display: block;
+    }
+    .map .localedetails .contact-container .left #locationicons, .address-container .left #locationicons{
+        font-size: 4rem;
+        color: #1ec500;
+        margin-top: 2rem;
+    }
+    .map .localedetails .contact-container .right, .address-container .right{
+        padding: 2rem;
+    }
+    .map .localedetails .contact-container .right p, .address-container .right p{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .About h1{
+        font-size: 2rem;
+        text-align: right;
+        padding-bottom: 10rem;
+        color: #fff;
+        text-decoration: underline;
+    }
+    .vision .body p{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        color: #000000;
+    }
+    .mission .body li{
+        font-size: 1.5rem;
+        color: #000000;
+        margin-left: 1rem;
+    }
+    .values .body li{
+        font-size: 1.5rem;
+        color: #000000;
+        margin-left: 1rem;
+    }
+    .about-container{
+        padding: 0;
+    }
+    .about-container .about-intro .body img{
+        width: 100%;
+        height: 30rem;
+        object-fit: cover;
+        top: 2rem;
+    }
+    .about-container .heading{
+        padding: 1rem;
+    }
+    .about-container .about-intro, .vision, 
+    .mission, 
+    .values{
+        display: flex;
+        padding: 0;
+    }
+    .vision .body{
+        padding: 2rem;
+        text-align: center;
+    }
+    .mission .body{
+        padding: 2rem;
+    } .values .body{
+        padding: 2rem;
+    }
+    .about-container .about-intro .heading, .mission .heading, .vision .heading, .values .heading{
+        background-color: #1ec500;
+        flex: 1.5;
+        width: 100%;
+    }
+    .about-container .about-intro .heading{
+        display: flex;
+        flex-direction: column;
+        flex: 1.445;
+    }
+
+    .about-container .heading h1{
+        text-decoration: none;
+    }
+    .about-container .about-intro .body, .mission .body, .vision .body, .values .body{
+        flex: 3;
+    }
+    .about-intro .ab-logo{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .About .landingpage h1{
+        font-size: 1.5rem;
+    }
+    .board-of-directors{
+        margin-bottom: 2rem;
+        overflow-y: scroll;
+    }
+    .board-of-directors .head h1{
+        text-align: left;
+        color: #000000;
+        margin: 2rem;
+        text-decoration: none;
+    }
+    .board-of-directors .tail{
+        display: flex;
+        flex-direction: row;
+        margin-top: -9rem;
+    }
+    .board-of-directors h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .board-of-directors .top{
+        display: flex;
+        margin-left: 12rem;
+        margin-bottom: rem;
+    }
+    .board-of-directors .bottom{
+        display: flex;
+        margin-left: 12rem;
+        margin-bottom: 2rem;
+    }
+    .dir{
+        display: flex;
+        padding: 10px;
+        width: 30rem;
+    }
+    #dir1{
+        margin-left: 4rem;
+    }
+    #dir3{
+        margin-left: 4.6rem;
+    }
+    .dir .details{
+        padding: 2rem;
+    }
+    .dir .details h1{
+        font-size: 1.3rem;
+        text-align: left;
+        color: #1ec500;
+    }
+    .dir .details h3{
+        font-size: 1rem;
+        text-align: left;
+        color: #000000;
+        margin-top: -11rem;
+        margin-bottom: 2rem;
+    }
+    .dir .image img{
+        width: 12rem;
+        height: 16rem;
+        margin-right: 20px;
+        border: 0.2rem solid #1ec500;
+    }
+    .About .map h1{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-bottom: -8rem;
+    }
+    .About .map .h1 h1{
+        font-size: 1.5rem;
+        margin-bottom: -8rem;
+    }
+}

@@ -1,0 +1,24 @@
+.Blog{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    background-color: #bcff8f;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.Blog .right{
+    flex: 4;
+}
+
+.Blog .left{
+    flex: 2;
+}
+
+
+.Blog .right .intro{
+    background-color: #1ec500;
+    padding: 2rem;
+    color: #fff;
+    padding-bottom: 6rem;
+}
